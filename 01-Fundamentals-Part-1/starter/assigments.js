@@ -21,3 +21,11 @@ console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof population)*/
+
+// Exercise 1 2 3  LET CONSTANT VAR
+const isIsland = false;
+let population = 2;
+const country = "Spain";
+let languaje;
+
+languaje = "spanish";
