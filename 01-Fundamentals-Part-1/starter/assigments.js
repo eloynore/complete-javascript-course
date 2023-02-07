@@ -9,7 +9,7 @@ console.log(continent);
 console.log(population);
 */
 
-// Exercise 1 LESSON DATA TYPES
+/*// Exercise 1 LESSON DATA TYPES
 let isIsland = false;
 let population = 2;
 let country = "Spain";
@@ -20,4 +20,4 @@ let languaje;
 console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
-console.log(typeof population);
+console.log(typeof population)*/

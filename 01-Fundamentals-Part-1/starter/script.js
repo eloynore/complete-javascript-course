@@ -19,7 +19,7 @@ let myCurrentJob = "Astronaut"; // your variable name should be a description of
 console.log(myFristJob);
 */
 
-true;
+/*true;
 console.log(true);
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -39,3 +39,15 @@ console.log(typeof year);
 
 
 console.log(typeof null); // returns object
+
+let age = 30; // that we will reasign 
+age = 31;
+
+const bithYear = 1991; // you cant modify this variable
+
+var job = "student"; // var its function scoped 
+job = "teacher";
+
+lastName = 'Spiderman'; // we can define variables with out let or var. Its not recommended.
+console.log(lastName);
+*/
