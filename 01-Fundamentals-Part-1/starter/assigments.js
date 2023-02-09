@@ -28,7 +28,7 @@ let population = 2;
 const country = "Spain";
 let languaje;
 
-languaje = "spanish";*/
+languaje = "spanish";
 
 // Exercise strings and template literals
 let description = `
@@ -42,4 +42,13 @@ have less people than the average country?
 5. Based on the variables you created, create a new variable 'description'
 which contains a string with this format: 'Portugal is in Europe, and its 11 million
 people speak portuguese'
-`
+`*/
+
+// decisions if else
+let population = 47;
+let averagePopulation = 33;
+if(population > averagePopulation ){
+    console.log(`Portugal's population is above average`);
+}else{
+    console.log(`Portual's pupulation is ${averagePopulation-population} below average`)
+}
