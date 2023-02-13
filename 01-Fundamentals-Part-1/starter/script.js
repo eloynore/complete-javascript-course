@@ -51,3 +51,11 @@ job = "teacher";
 lastName = 'Spiderman'; // we can define variables with out let or var. Its not recommended.
 console.log(lastName);
 */
+
+const age = 18;
+if (age === 18) console.log('Mayor de edad'); // one line if strict
+
+if (age == 18) console.log('Mayor de edad'); // one line if loose 
+
+const favourite = prompt("Give me your favourite number");
+console.log(typeof favourite);
