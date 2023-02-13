@@ -45,10 +45,21 @@ people speak portuguese'
 `*/
 
 // decisions if else
-let population = 47;
-let averagePopulation = 33;
-if(population > averagePopulation ){
-    console.log(`Portugal's population is above average`);
+// let population = 47;
+// let averagePopulation = 33;
+// if(population > averagePopulation ){
+//     console.log(`Portugal's population is above average`);
+// }else{
+//     console.log(`Portual's pupulation is ${averagePopulation-population} below average`)
+// }
+
+// EQUALITY OPERATORS
+const numNeighbours = Number(prompt('how many neighbour countries does your country have?'))
+
+if (numNeighbours === 1){
+    console.log('Only 1 border');
+}else if( numNeighbours >= 1){
+    console.log('More than 1 border');
 }else{
-    console.log(`Portual's pupulation is ${averagePopulation-population} below average`)
+    console.log('No borders')
 }
